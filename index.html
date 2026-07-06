@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'poli-theme') {
+          document.documentElement.setAttribute('data-theme', e.data.light ? 'light' : 'dark');
+        }
+      });
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Estimate your keloid and hypertrophic scar risk before a piercing or tattoo — assessed across 6 clinical factors including personal history, Fitzpatrick type, and body location.">
+  <title>Keloid & Hypertrophic Scar Risk Assessor | Poli International</title>
+  <link rel="stylesheet" href="/tools/keloid-scar-risk/css/style.css">
+</head>
+<body>
+<div class="tool-wrapper">
+
+  <header class="tool-header">
+    <div class="tool-header__badge">🔴 Scar Risk Assessment</div>
+    <h1>Keloid & Hypertrophic Scar Risk Assessor</h1>
+    <p>Estimate your risk of raised scar formation before a piercing or tattoo, assessed across 6 clinical factors.</p>
+  </header>
+
+  <form id="risk-form" class="factor-form"></form>
+
+  <button class="calc-btn" id="calc-btn" type="button" disabled>Calculate My Risk →</button>
+
+  <div id="result"></div>
+
+  <div class="disclaimer">
+    <strong>Important:</strong> This tool is an educational risk estimate only and does not constitute medical advice.
+    Keloid formation cannot be predicted with certainty. If you have a confirmed history of keloid scarring, consult
+    a dermatologist before any new piercing or tattoo procedure.
+  </div>
+
+</div>
+<script src="/tools/keloid-scar-risk/js/app.js"></script>
+</body>
+</html>
