@@ -108,7 +108,7 @@ function calculate() {
   });
 
   const { tier, cls, icon, msg } = getTier(score);
-  const pct = Math.min(100, Math.round(score / 29 * 100));
+  const pct = Math.round(score / 35 * 100);
 
   resultDiv.innerHTML = `
     <div class="result-card">
@@ -116,7 +116,7 @@ function calculate() {
         <span class="result-icon">${icon}</span>
         <div>
           <div class="result-tier">${escHtml(tier)} Risk</div>
-          <div class="result-score">Score: ${score} / 29</div>
+          <div class="result-score">Score: ${score} / 35</div>
         </div>
       </div>
       <div class="risk-bar-wrap">
