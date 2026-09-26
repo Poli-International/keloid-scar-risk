@@ -458,10 +458,11 @@ window.I18N = window.I18N || {};
               <div class="timeline-marker"></div>
               <div class="timeline-content">
                 <span class="timeline-time">${escHtml(phase.timeframe)}</span>
-                <h3 class="timeline-title">${escHtml(phase.title)}</h3>
-                <p class="timeline-body">${escHtml(phase.desc)}</p>
+                <h3 class="timeline-title">${escHtml(phase.label)}</h3>
+                <p class="timeline-body"><strong>${escHtml(t('timeline.labels.expected_symptoms'))}</strong> ${escHtml(phase.normal)}</p>
+                <p class="timeline-body"><strong>${escHtml(t('timeline.labels.not_keloid_yet'))}</strong> ${escHtml(phase.not_keloid)}</p>
                 <div class="timeline-clinical">
-                  <strong>${escHtml(t('timeline.clinical_note_label'))}:</strong> ${escHtml(phase.clinical_note)}
+                  <strong>${escHtml(t('timeline.labels.recommended_action'))}</strong> ${escHtml(phase.action)}
                 </div>
               </div>
             </div>
@@ -571,10 +572,10 @@ window.I18N = window.I18N || {};
 
             <div class="factors-actions">
               <button type="button" class="btn btn-primary" id="btn-eval-factors">
-                ${escHtml(t('factors.evaluate_btn'))}
+                ${escHtml(t('factors.btn_evaluate'))}
               </button>
               <button type="button" class="btn btn-secondary" id="btn-reset-factors">
-                ${escHtml(t('factors.reset_btn'))}
+                ${escHtml(t('factors.btn_reset'))}
               </button>
             </div>
           </form>
