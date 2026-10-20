@@ -13,7 +13,8 @@ window.I18N = window.I18N || {};
     { code: 'fr', name: 'Français' },
     { code: 'it', name: 'Italiano' },
     { code: 'pt', name: 'Português' },
-    { code: 'nl', name: 'Nederlands' }
+    { code: 'nl', name: 'Nederlands' },
+    { code: 'th', name: 'ไทย' }
   ];
 
   let currentLang = DEFAULT_LANG;
