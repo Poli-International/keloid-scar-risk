@@ -831,32 +831,32 @@ window.I18N = window.I18N || {};
                 <path d="M 60 135 C 50 142, 50 155, 62 160" fill="none" stroke="var(--border)" stroke-width="1.5"/>
 
                 <!-- Clickable Site 0: Helix Cartilage -->
-                <g class="svg-diagram-hit" data-site-index="0" data-site-name="Ear Cartilage (Helix)" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.helix'))}">
+                <g class="svg-diagram-hit" data-site-index="0" data-site-name="${escHtml(t('map.aria.helix'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.helix'))}">
                   <circle class="svg-hit-target" cx="125" cy="35" r="10"/>
                   <text class="svg-site-label" x="142" y="38">${escHtml(t('map.labels.helix'))}</text>
                 </g>
 
                 <!-- Clickable Site 0b: Industrial Bar Zone -->
-                <g class="svg-diagram-hit" data-site-index="0" data-site-name="Ear Cartilage (Industrial)" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.industrial'))}">
+                <g class="svg-diagram-hit" data-site-index="0" data-site-name="${escHtml(t('map.aria.industrial'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.industrial'))}">
                   <line x1="75" y1="58" x2="135" y2="40" stroke="var(--text-muted)" stroke-width="2" stroke-dasharray="2 2"/>
                   <circle class="svg-hit-target" cx="75" cy="58" r="9"/>
                   <text class="svg-site-label" x="22" y="55">${escHtml(t('map.labels.industrial'))}</text>
                 </g>
 
                 <!-- Clickable Site 0c: Conch Cartilage -->
-                <g class="svg-diagram-hit" data-site-index="0" data-site-name="Ear Cartilage (Conch)" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.conch'))}">
+                <g class="svg-diagram-hit" data-site-index="0" data-site-name="${escHtml(t('map.aria.conch'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.conch'))}">
                   <circle class="svg-hit-target" cx="105" cy="135" r="10"/>
                   <text class="svg-site-label" x="122" y="139">${escHtml(t('map.labels.conch'))}</text>
                 </g>
 
                 <!-- Clickable Site 0d: Tragus -->
-                <g class="svg-diagram-hit" data-site-index="0" data-site-name="Ear Cartilage (Tragus)" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.tragus'))}">
+                <g class="svg-diagram-hit" data-site-index="0" data-site-name="${escHtml(t('map.aria.tragus'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.tragus'))}">
                   <circle class="svg-hit-target" cx="58" cy="148" r="9"/>
                   <text class="svg-site-label" x="12" y="152">${escHtml(t('map.labels.tragus'))}</text>
                 </g>
 
                 <!-- Clickable Site 1: Earlobe -->
-                <g class="svg-diagram-hit" data-site-index="1" data-site-name="Earlobe" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.lobe'))}">
+                <g class="svg-diagram-hit" data-site-index="1" data-site-name="${escHtml(t('map.aria.lobe'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.lobe'))}">
                   <circle class="svg-hit-target" cx="118" cy="235" r="11"/>
                   <text class="svg-site-label" x="135" y="239">${escHtml(t('map.labels.lobe'))}</text>
                 </g>
@@ -880,25 +880,25 @@ window.I18N = window.I18N || {};
                 <line x1="120" y1="100" x2="120" y2="185" stroke="var(--border)" stroke-dasharray="3 3" stroke-width="1.5"/>
 
                 <!-- Clickable Site 2: Nostril / Septum -->
-                <g class="svg-diagram-hit" data-site-index="2" data-site-name="Nostril & Septum" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.nose_septum'))}">
+                <g class="svg-diagram-hit" data-site-index="2" data-site-name="${escHtml(t('map.aria.nose_septum'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.nose_septum'))}">
                   <circle class="svg-hit-target" cx="120" cy="52" r="9"/>
                   <text class="svg-site-label" x="135" y="55">${escHtml(t('map.labels.nose_septum'))}</text>
                 </g>
 
                 <!-- Clickable Site 4: Chest & Sternum -->
-                <g class="svg-diagram-hit" data-site-index="4" data-site-name="Chest, Sternum, Shoulders" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.chest_sternum'))}">
+                <g class="svg-diagram-hit" data-site-index="4" data-site-name="${escHtml(t('map.aria.chest_sternum'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.chest_sternum'))}">
                   <circle class="svg-hit-target" cx="120" cy="130" r="11"/>
                   <text class="svg-site-label" x="137" y="134">${escHtml(t('map.labels.sternum'))}</text>
                 </g>
 
                 <!-- Clickable Site 4b: Shoulder -->
-                <g class="svg-diagram-hit" data-site-index="4" data-site-name="Shoulders & Deltoid" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.shoulder'))}">
+                <g class="svg-diagram-hit" data-site-index="4" data-site-name="${escHtml(t('map.aria.shoulder'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.shoulder'))}">
                   <circle class="svg-hit-target" cx="62" cy="125" r="10"/>
                   <text class="svg-site-label" x="12" y="112">${escHtml(t('map.labels.shoulder'))}</text>
                 </g>
 
                 <!-- Clickable Site 3: Navel -->
-                <g class="svg-diagram-hit" data-site-index="3" data-site-name="Navel" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.navel'))}">
+                <g class="svg-diagram-hit" data-site-index="3" data-site-name="${escHtml(t('map.aria.navel'))}" tabindex="0" role="button" aria-label="${escHtml(t('map.aria.navel'))}">
                   <circle class="svg-hit-target" cx="120" cy="225" r="10"/>
                   <text class="svg-site-label" x="136" y="229">${escHtml(t('map.labels.navel'))}</text>
                 </g>
@@ -1012,33 +1012,37 @@ window.I18N = window.I18N || {};
 
   // Generate plain text or Markdown report from worksheet for local download/clipboard
   function generateConsultationText() {
+    const ns = t('consultation.export_not_specified');
+    const nr = t('consultation.export_none_reported');
+    const e = (k) => t('consultation.export_' + k);
+    const c = state.consultation;
     const lines = [
       "===========================================================",
-      "POLI INTERNATIONAL: CLINICAL CONSULTATION WORKSHEET",
-      "Educational Raised Scar & Irritation Bump Guide",
+      "POLI INTERNATIONAL: " + e('title'),
+      e('subtitle'),
       "===========================================================",
-      "NOTE: Self-reported patient intake summary. Contains zero automated scores or diagnostic determinations.",
+      e('note'),
       "",
-      "PRIMARY SITE EVALUATION (Site #1):",
-      `Procedure Type: ${state.consultation.procedure_type || 'Not specified'}`,
-      `Anatomical Site: ${state.consultation.anatomical_site || 'Not specified'}`,
-      `Date of Procedure: ${state.consultation.procedure_date || 'Not specified'}`,
-      `Bump / Growth Onset: ${state.consultation.bump_onset || 'Not specified'}`,
-      `Behavior Since Appearance: ${state.consultation.behavior_since || 'Not specified'}`,
-      `Reported Symptoms: ${state.consultation.symptoms || 'Not specified'}`,
-      `Attempted Remedies: ${state.consultation.attempted_remedies || 'None reported'}`,
-      `Patient Notes / Questions: ${state.consultation.notes || 'None reported'}`,
+      e('primary'),
+      `${e('lbl_procedure')}: ${c.procedure_type || ns}`,
+      `${e('lbl_site')}: ${c.anatomical_site || ns}`,
+      `${e('lbl_date')}: ${c.procedure_date || ns}`,
+      `${e('lbl_onset')}: ${c.bump_onset || ns}`,
+      `${e('lbl_behavior')}: ${c.behavior_since || ns}`,
+      `${e('lbl_symptoms')}: ${c.symptoms || ns}`,
+      `${e('lbl_remedies')}: ${c.attempted_remedies || nr}`,
+      `${e('lbl_notes')}: ${c.notes || nr}`,
       ""
     ];
 
     if (state.additionalSites.length > 0) {
-      lines.push("ADDITIONAL EVALUATED SITES:");
+      lines.push(e('additional'));
       state.additionalSites.forEach((s, idx) => {
-        lines.push(`Site #${idx + 2}:`);
-        lines.push(`  - Anatomical Location: ${s.anatomical_site || 'Not specified'}`);
-        lines.push(`  - Procedure Type: ${s.procedure_type || 'Not specified'}`);
-        lines.push(`  - Onset / Behavior: ${s.bump_onset || 'Not specified'} | ${s.behavior_since || 'Not specified'}`);
-        lines.push(`  - Symptoms: ${s.symptoms || 'Not specified'}`);
+        lines.push(t('consultation.site_item_num', { num: idx + 2 }) + ":");
+        lines.push(`  - ${e('lbl_location')}: ${s.anatomical_site || ns}`);
+        lines.push(`  - ${e('lbl_procedure')}: ${s.procedure_type || ns}`);
+        lines.push(`  - ${e('lbl_onset_behavior')}: ${s.bump_onset || ns} | ${s.behavior_since || ns}`);
+        lines.push(`  - ${e('lbl_symptoms')}: ${s.symptoms || ns}`);
         lines.push("");
       });
     }
