@@ -308,7 +308,7 @@ window.I18N.fr = {
   "aftercare": {
     "section_title": "Après un perçage : comment apaiser une excroissance",
     "section_desc": "Les excroissances d'irritation sont des réponses physiologiques à des contraintes répétées, des pressions ou des micro-mouvements. Éliminer la cause permet à la cascade naturelle de guérison de résorber le gonflement.",
-    "do_not_use_badge": "✕ NE JAMAIS UTILISER",
+    "do_not_use_badge": "NE JAMAIS UTILISER",
     "principles": [
       {
         "title": "1. Supprimer la pression et les mouvements",
@@ -501,7 +501,7 @@ window.I18N.fr = {
     "export_additional": "SITES ÉVALUÉS SUPPLÉMENTAIRES :",
     "export_lbl_location": "Localisation anatomique",
     "export_lbl_onset_behavior": "Apparition / évolution",
-    "copied_toast": "✓ Résumé copié dans le presse-papiers !",
+    "copied_toast": "Résumé copié dans le presse-papiers !",
     "download_file_btn": "Télécharger le résumé texte (.txt / .md)"
   },
   "disclaimer": {
