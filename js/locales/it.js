@@ -308,7 +308,7 @@ window.I18N.it = {
   "aftercare": {
     "section_title": "Dopo il piercing: come favorire il riassorbimento di un'escrescenza",
     "section_desc": "Le bolle da irritazione sono reazioni fisiologiche a sollecitazioni protratte, pressioni costanti o movimenti ripetuti. La rimozione della causa primaria consente al corpo di completare spontaneamente il processo di sgonfiamento.",
-    "do_not_use_badge": "✕ DA NON UTILIZZARE",
+    "do_not_use_badge": "DA NON UTILIZZARE",
     "principles": [
       {
         "title": "1. Rimuovere pressione e movimento",
@@ -501,7 +501,7 @@ window.I18N.it = {
     "export_additional": "ALTRI SITI VALUTATI:",
     "export_lbl_location": "Posizione anatomica",
     "export_lbl_onset_behavior": "Comparsa / andamento",
-    "copied_toast": "✓ Riassunto copiato negli appunti!",
+    "copied_toast": "Riassunto copiato negli appunti!",
     "download_file_btn": "Scarica riassunto in testo (.txt / .md)"
   },
   "disclaimer": {
