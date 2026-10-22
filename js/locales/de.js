@@ -308,7 +308,7 @@ window.I18N.de = {
   "aftercare": {
     "section_title": "Nach dem Piercen: Was einem Bump beim Abheilen hilft",
     "section_desc": "Reizblasen sind physiologische Reaktionen auf andauernde Reibung, Druck oder Bewegung. Wird die Reizursache beseitigt, kann die natürliche Wundheilung die Schwellung zurückbilden.",
-    "do_not_use_badge": "✕ NIEMALS ANWENDEN",
+    "do_not_use_badge": "NIEMALS ANWENDEN",
     "principles": [
       {
         "title": "1. Druck und Bewegung vollständig eliminieren",
@@ -501,7 +501,7 @@ window.I18N.de = {
     "export_additional": "WEITERE BEURTEILTE STELLEN:",
     "export_lbl_location": "Körperstelle",
     "export_lbl_onset_behavior": "Beginn / Verlauf",
-    "copied_toast": "✓ Zusammenfassung in die Zwischenablage kopiert!",
+    "copied_toast": "Zusammenfassung in die Zwischenablage kopiert!",
     "download_file_btn": "Textzusammenfassung herunterladen (.txt / .md)"
   },
   "disclaimer": {
