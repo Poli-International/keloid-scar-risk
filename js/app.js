@@ -310,7 +310,7 @@ window.I18N = window.I18N || {};
             
             <div class="svg-wrap ${state.zoomActive.bump ? 'svg-magnifier-active' : ''}" id="svg-wrap-bump">
               <button type="button" class="magnifier-btn" data-card="bump" aria-label="${escHtml(t('magnifier.hint'))}">
-                🔍 ${state.zoomActive.bump ? '1x' : '1.4x'}
+                <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-search></use></svg> ${state.zoomActive.bump ? '1x' : '1.4x'}
               </button>
               ${renderSvgBump()}
             </div>
@@ -342,7 +342,7 @@ window.I18N = window.I18N || {};
             
             <div class="svg-wrap ${state.zoomActive.hypertrophic ? 'svg-magnifier-active' : ''}" id="svg-wrap-hypertrophic">
               <button type="button" class="magnifier-btn" data-card="hypertrophic" aria-label="${escHtml(t('magnifier.hint'))}">
-                🔍 ${state.zoomActive.hypertrophic ? '1x' : '1.4x'}
+                <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-search></use></svg> ${state.zoomActive.hypertrophic ? '1x' : '1.4x'}
               </button>
               ${renderSvgHypertrophic()}
             </div>
@@ -374,7 +374,7 @@ window.I18N = window.I18N || {};
             
             <div class="svg-wrap ${state.zoomActive.keloid ? 'svg-magnifier-active' : ''}" id="svg-wrap-keloid">
               <button type="button" class="magnifier-btn" data-card="keloid" aria-label="${escHtml(t('magnifier.hint'))}">
-                🔍 ${state.zoomActive.keloid ? '1x' : '1.4x'}
+                <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-search></use></svg> ${state.zoomActive.keloid ? '1x' : '1.4x'}
               </button>
               ${renderSvgKeloid()}
             </div>
@@ -648,7 +648,7 @@ window.I18N = window.I18N || {};
 
       <div class="transfer-box">
         <button type="button" class="btn btn-secondary" id="btn-transfer-to-consultation">
-          📋 ${escHtml(t('factors.transfer_btn'))}
+          <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-clipboard></use></svg> ${escHtml(t('factors.transfer_btn'))}
         </button>
       </div>
     `;
@@ -680,13 +680,13 @@ window.I18N = window.I18N || {};
         <!-- Real-time Search Filter Bar -->
         <div class="search-filter-bar no-print">
           <div class="search-input-wrap">
-            <span class="search-icon" aria-hidden="true">🔍</span>
+            <span class="search-icon" aria-hidden="true"><svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-search></use></svg></span>
             <input type="text" id="filter-search-input" class="search-input"
                    placeholder="${escHtml(t('search.placeholder'))}"
                    value="${escHtml(state.searchQuery)}"
                    aria-label="${escHtml(t('search.label'))}">
             ${state.searchQuery ? `
-              <button type="button" id="btn-clear-search" class="search-clear-btn" aria-label="${escHtml(t('search.clear'))}">✕</button>
+              <button type="button" id="btn-clear-search" class="search-clear-btn" aria-label="${escHtml(t('search.clear'))}"><svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-x></use></svg></button>
             ` : ''}
           </div>
         </div>
@@ -818,7 +818,7 @@ window.I18N = window.I18N || {};
         <div class="diagram-maps-grid">
           <!-- Ear Cartilage & Lobe Map -->
           <div class="diagram-panel">
-            <div class="diagram-panel-title">👂 ${escHtml(t('map.ear_view'))}</div>
+            <div class="diagram-panel-title"><svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-ring></use></svg> ${escHtml(t('map.ear_view'))}</div>
             <div class="diagram-svg-wrap">
               <svg class="diagram-svg" viewBox="0 0 240 280" role="img" aria-label="${escHtml(t('map.ear_view'))}">
                 <!-- Outer Ear Outline -->
@@ -866,7 +866,7 @@ window.I18N = window.I18N || {};
 
           <!-- Body & Facial Anatomy Map -->
           <div class="diagram-panel">
-            <div class="diagram-panel-title">👤 ${escHtml(t('map.body_view'))}</div>
+            <div class="diagram-panel-title"><svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-user></use></svg> ${escHtml(t('map.body_view'))}</div>
             <div class="diagram-svg-wrap">
               <svg class="diagram-svg" viewBox="0 0 240 280" role="img" aria-label="${escHtml(t('map.body_view'))}">
                 <!-- Head & Torso outline -->
@@ -994,13 +994,13 @@ window.I18N = window.I18N || {};
         <div class="doctor-flags-card" id="printable-flags">
           <div class="card-top-action">
             <button type="button" class="btn btn-secondary btn-sm" id="btn-print-flags">
-              🖨️ ${escHtml(t('doctor.print_btn'))}
+              <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-print></use></svg> ${escHtml(t('doctor.print_btn'))}
             </button>
           </div>
           <ul class="flags-checklist">
             ${redFlags.map(rf => `
               <li class="flag-item">
-                <div class="flag-title">⚠️ ${escHtml(rf.flag)}</div>
+                <div class="flag-title"><svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-warn></use></svg> ${escHtml(rf.flag)}</div>
                 <div class="flag-detail">${escHtml(rf.detail)}</div>
               </li>
             `).join('')}
@@ -1116,7 +1116,7 @@ window.I18N = window.I18N || {};
                   <div class="site-block-header">
                     <span class="site-block-title">${escHtml(t('consultation.site_item_num', { num: idx + 2 }))}</span>
                     <button type="button" class="site-block-remove no-print" data-remove-index="${idx}">
-                      ✕ ${escHtml(t('consultation.remove_site_btn'))}
+                      <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-x></use></svg> ${escHtml(t('consultation.remove_site_btn'))}
                     </button>
                   </div>
                   <div class="grid-2-col">
@@ -1164,13 +1164,13 @@ window.I18N = window.I18N || {};
 
             <div class="form-actions no-print">
               <button type="button" class="btn btn-primary" id="btn-print-consultation">
-                🖨️ ${escHtml(t('consultation.print_btn'))}
+                <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-print></use></svg> ${escHtml(t('consultation.print_btn'))}
               </button>
               <button type="button" class="btn btn-secondary" id="btn-copy-clipboard">
-                📋 ${escHtml(t('consultation.copy_clipboard_btn'))}
+                <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-clipboard></use></svg> ${escHtml(t('consultation.copy_clipboard_btn'))}
               </button>
               <button type="button" class="btn btn-secondary" id="btn-download-file">
-                💾 ${escHtml(t('consultation.download_file_btn'))}
+                <svg class=ti-i width=1.15em height=1.15em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-save></use></svg> ${escHtml(t('consultation.download_file_btn'))}
               </button>
               <button type="button" class="btn btn-secondary" id="btn-clear-consultation">
                 ${escHtml(t('consultation.clear_btn'))}
@@ -1222,7 +1222,7 @@ window.I18N = window.I18N || {};
     const headerHtml = `
       <header class="tool-header" id="tool-header">
         <div class="header-top-row">
-          <div class="tool-header__badge" id="tool-badge">🔴 ${escHtml(t('app.badge'))}</div>
+          <div class="tool-header__badge" id="tool-badge"><svg class=ti-i width=.7em height=.7em aria-hidden=true style=vertical-align:-.18em;flex:none><use href=../shared/icons.svg#i-dot-red></use></svg> ${escHtml(t('app.badge'))}</div>
           <div class="lang-selector-wrap">
             <label for="lang-select" class="lang-label">${escHtml(t('lang.label'))}</label>
             <select id="lang-select" class="lang-select">
