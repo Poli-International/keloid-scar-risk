@@ -308,7 +308,7 @@ window.I18N.es = {
   "aftercare": {
     "section_title": "Tras la perforación: cómo calmar un bulto",
     "section_desc": "Los bultos de irritación son respuestas biológicas a la fricción continua, la presión o el movimiento. Suprimir la causa desencadenante permite que los mecanismos fisiológicos del cuerpo reabsorban la hinchazón.",
-    "do_not_use_badge": "✕ NO UTILIZAR BAJO NINGÚN CONCEPTO",
+    "do_not_use_badge": "NO UTILIZAR BAJO NINGÚN CONCEPTO",
     "principles": [
       {
         "title": "1. Eliminar por completo la presión y el movimiento",
@@ -501,7 +501,7 @@ window.I18N.es = {
     "export_additional": "OTROS SITIOS EVALUADOS:",
     "export_lbl_location": "Ubicación anatómica",
     "export_lbl_onset_behavior": "Aparición / evolución",
-    "copied_toast": "✓ ¡Resumen copiado al portapapeles!",
+    "copied_toast": "¡Resumen copiado al portapapeles!",
     "download_file_btn": "Descargar resumen en texto (.txt / .md)"
   },
   "disclaimer": {
