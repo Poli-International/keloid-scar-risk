@@ -308,7 +308,7 @@ window.I18N.nl = {
   "aftercare": {
     "section_title": "Na het piercen: wat helpt een bultje te kalmeren",
     "section_desc": "Irritatiebultjes zijn fysiologische reacties op aanhoudende wrijving, druk of beweging. Door de oorzaak weg te nemen, kan het natuurlijke herstelmechanisme van het lichaam de zwelling opruimen.",
-    "do_not_use_badge": "✕ NOOIT GEBRUIKEN",
+    "do_not_use_badge": "NOOIT GEBRUIKEN",
     "principles": [
       {
         "title": "1. Druk en beweging volledig wegnemen",
@@ -501,7 +501,7 @@ window.I18N.nl = {
     "export_additional": "OVERIGE BEOORDEELDE LOCATIES:",
     "export_lbl_location": "Anatomische locatie",
     "export_lbl_onset_behavior": "Ontstaan / verloop",
-    "copied_toast": "✓ Samenvatting naar klembord gekopieerd!",
+    "copied_toast": "Samenvatting naar klembord gekopieerd!",
     "download_file_btn": "Tekstsamenvatting downloaden (.txt / .md)"
   },
   "disclaimer": {
