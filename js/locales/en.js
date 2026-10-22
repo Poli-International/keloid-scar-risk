@@ -308,7 +308,7 @@ window.I18N.en = {
   "aftercare": {
     "section_title": "After a Piercing: What Helps a Bump Settle",
     "section_desc": "Irritation bumps are physiological reactions to sustained trauma, pressure, or movement. Removing the underlying cause allows the body's natural healing cascade to resolve the swelling.",
-    "do_not_use_badge": "✕ DO NOT USE",
+    "do_not_use_badge": "DO NOT USE",
     "principles": [
       {
         "title": "1. Remove Pressure & Motion",
@@ -501,7 +501,7 @@ window.I18N.en = {
     "export_additional": "ADDITIONAL EVALUATED SITES:",
     "export_lbl_location": "Anatomical Location",
     "export_lbl_onset_behavior": "Onset / Behavior",
-    "copied_toast": "✓ Summary copied to clipboard!",
+    "copied_toast": "Summary copied to clipboard!",
     "download_file_btn": "Download Text Summary (.txt / .md)"
   },
   "disclaimer": {
