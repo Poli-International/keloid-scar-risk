@@ -308,7 +308,7 @@ window.I18N.pt = {
   "aftercare": {
     "section_title": "Após a perfuração: como acalmar uma elevação",
     "section_desc": "Os granulomas de irritação são reações fisiológicas à fricção contínua, à pressão ou ao movimento. Eliminar o estímulo inicial permite que os mecanismos normais do organismo reabsorvam o inchaço.",
-    "do_not_use_badge": "✕ NUNCA UTILIZAR",
+    "do_not_use_badge": "NUNCA UTILIZAR",
     "principles": [
       {
         "title": "1. Eliminar totalmente a pressão e a mobilidade",
@@ -501,7 +501,7 @@ window.I18N.pt = {
     "export_additional": "OUTROS LOCAIS AVALIADOS:",
     "export_lbl_location": "Localização anatómica",
     "export_lbl_onset_behavior": "Aparecimento / evolução",
-    "copied_toast": "✓ Resumo copiado para a área de transferência!",
+    "copied_toast": "Resumo copiado para a área de transferência!",
     "download_file_btn": "Transferir resumo em texto (.txt / .md)"
   },
   "disclaimer": {
